@@ -1,0 +1,23 @@
+.st01 {
+  background-color: rgb(36, 41, 47);
+}
+
+.logo {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mainLogo {
+  font-size: 27px;
+  font-style: italic;
+  color: rgb(179, 187, 197);
+  margin: 0%;
+}
+
+.subLogo {
+  color: rgb(179, 187, 197);
+  margin: 0%;
+
+}
