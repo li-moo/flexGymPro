@@ -21,3 +21,40 @@
   margin: 0%;
 
 }
+
+@keyframes blink {
+
+  0%,
+  49%,
+  100% {
+    opacity: 0;
+  }
+
+  50%,
+  99% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.blinkingText {
+  /* animation: blink 2s infinite; */
+  /* 2초 동안 깜빡이는 애니메이션 */
+}
+
+.movingText {
+  animation: moveLeft 20s linear infinite;
+  /* 5초 동안 왼쪽으로 움직이는 애니메이션 */
+  color: dodgerblue;
+  border-color: dodgerblue;
+  display: flex;
+}
